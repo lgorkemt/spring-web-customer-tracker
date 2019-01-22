@@ -2,7 +2,7 @@
 The code is written by using Chad Darby's Udemy course on Spring framework (https://www.udemy.com/spring-hibernate-tutorial/)
 
 . A Mysql DB and workbench should be installed to the local machine which the application is going to run. (MySQL can be 
-downlaoded from http://dev.mysql.com/downloads)
+downlaoded from http://dev.mysql.com/downloads) (Should run on the default port 3306)
 
 . Open MySql workbench and run three scripts respectively; 
     01-create-user.sql, 
