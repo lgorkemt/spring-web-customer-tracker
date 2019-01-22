@@ -18,3 +18,4 @@ nd authorization.
 . Run the application: 
    a. Select the root project folder
    b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
+   c. The application is secured by using Spring security, for all available users and roles you may look at the .sql script 03-setup-spring-security-bcrypt-demo-database.sql. (The password for the users are 'fun123')
