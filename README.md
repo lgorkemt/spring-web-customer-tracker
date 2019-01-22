@@ -9,12 +9,14 @@ downlaoded from http://dev.mysql.com/downloads)
     02-customer-tracker.sql, 
     03-setup-spring-security-bcrypt-demo-database 
 
-These sripts would create a db user called springstudent, create the DB schema called web_customer_tracker, 
-create a Customer table, populate the Customer table and create user and role tables that would be used in authentication and authorization.
+These scripts would create a db user called springstudent, create the DB schema called web_customer_tracker, 
+create a Customer table, populate the Customer table and create user and role tables that would be used in authentication 
+and authorization.
 
 . Open the source code for the appropriate version
 
 . Run the application: 
    a. Select the root project folder
    b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
-   c. The application is secured by using Spring security, for all available users and roles you may look at the .sql script 03-setup-spring-security-bcrypt-demo-database.sql. (The password for all the users are 'fun123')
+   c. The application is secured by using Spring security, for all available users and roles you may look at the .sql 
+   script 03-setup-spring-security-bcrypt-demo-database.sql. (The password for all the users are 'fun123')
