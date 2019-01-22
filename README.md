@@ -1,4 +1,5 @@
 . The application is a simple CRM web application for allowing user to make CRUD operations on a list of customers.
+The code is written by using Chad Darby's Udemy course on Spring framework (https://www.udemy.com/spring-hibernate-tutorial/)
 
 . A Mysql DB and workbench should be installed to the local machine which the application is going to run. (MySQL can be 
 downlaoded from http://dev.mysql.com/downloads)
