@@ -1,18 +1,10 @@
-. The application is a simple CRM web application for allowing user to make CRUD operations on a list of customers. It
-runs on Amazon Elastic Beanstalk web service and running on the url; 
+. The application is a simple CRM web application for allowing user to make CRUD operations on a list of customers.
+The code is written by using Chad Darby's Udemy course on Spring framework (https://www.udemy.com/spring-hibernate-tutorial/)
 
-http://web-customer-tracker-06.us-east-2.elasticbeanstalk.com/
+. A Mysql DB and workbench should be installed to the local machine which the application is going to run. (MySQL can be 
+downlaoded from http://dev.mysql.com/downloads)
 
-. A Mysql DB for the appication is running on the RDS Amazon web service.
- 
-
-. You may also make a local database installation. (MySQL can be downlaoded from http://dev.mysql.com/downloads)
-In this case change  springonaws-db.cyedmhnitszb.us-east-2.rds.amazonaws.com part in both of the mysql properties
-file under resources. 
-
-. To install a local database;
-
-Open MySql workbench and run three scripts respectively; 
+. Open MySql workbench and run three scripts respectively; 
     01-create-user.sql, 
     02-customer-tracker.sql, 
     03-setup-spring-security-bcrypt-demo-database 
@@ -23,7 +15,7 @@ and authorization.
 
 . Open the source code for the appropriate version
 
-. To run the application locally: 
+. Run the application: 
    a. Select the root project folder
    b. Right-Click, select Run As > Run On Server (A tomcat server should have been installed in your local machine)
    c. The application is secured by using Spring security, for all available users and roles you may look at the .sql 
