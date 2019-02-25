@@ -7,8 +7,8 @@ http://web-customer-tracker-06.us-east-2.elasticbeanstalk.com/
  
 
 . You may also make a local database installation. (MySQL can be downlaoded from http://dev.mysql.com/downloads)
-In this case change  springonaws-db.cyedmhnitszb.us-east-2.rds.amazonaws.com part in both of the mysql properties
-file under resources. 
+In this case change  springonaws-db.cyedmhnitszb.us-east-2.rds.amazonaws.com part to localhost in both of the mysql 
+properties file under resources. 
 
 . To install a local database;
 
