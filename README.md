@@ -1,7 +1,7 @@
 . The application is a simple CRM web application for allowing user to make CRUD operations on a list of customers. It
 runs on Amazon Elastic Beanstalk web service and running on the url; 
 
-http://web-customer-tracker-06.us-east-2.elasticbeanstalk.com/
+turan-demo.co.uk
 
 . A Mysql DB for the appication is running on the RDS Amazon web service.
  
